@@ -12,11 +12,13 @@ A lightweight proof-of-concept for Azure-first, agentic AI/ML pipelines tailored
 - `src/atlas_poc/` – Data pipelines, classifier, agent, and integration stubs with explainable risk scoring.
 - `tests/` – Unit tests for ingestion, classification, and agent orchestration.
 - `ROADMAP.md` – Completed task list for the POC scope.
+
 - `docs/EVALUATION_FRAMEWORK.md` – Accuracy, drift, validation, and observability guidance.
 - `docs/MODEL_SELECTION_EXPERIMENTS.md` – Efficiency KPIs, experiments, and router strategy for choosing models.
 
 ## Quickstart
 1. **Install Python 3.14 (latest stable)**
+
 2. **Run tests**
    ```bash
    python -m unittest discover -s tests -p 'test_*.py'
